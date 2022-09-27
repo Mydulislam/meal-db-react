@@ -1,0 +1,32 @@
+.meals-content{
+    border: 1px solid dimgrey;
+    border-radius: 10px;
+    position: relative;
+}
+.meals-info{
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.meals-content img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+.cart-btn{
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    display: block;
+    background: orange;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 18px;
+    position: absolute;
+    bottom: 0;
+    transition: 0.5s;
+}
+.cart-btn:hover{
+    background: #f7a715;
+}
+.btn-text{
+    margin-right: 10px;
+}
